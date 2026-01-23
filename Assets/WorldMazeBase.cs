@@ -181,7 +181,7 @@ abstract class WorldMazeBase : MonoBehaviour
                 new Dictionary<string, object>
                 {
                     { "Key", "Mode" },
-                    { "Description", "“Memory mode” = user has to remember their starting location and keep track of their movements. “Standard mode” = location is shown at all times." },
+                    { "Description", "Memory mode:  location is hidden after first movement.\nStandard mode: location is shown at all times." },
                     { "Type", "Dropdown" },
                     { "DropdownItems", new List<object> { "Standard", "Memory" } }
                 },
